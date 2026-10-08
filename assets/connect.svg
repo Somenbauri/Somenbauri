@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Connect section with character pointing to social links">
+  <defs>
+    <style><![CDATA[
+      @font-face {
+        font-family: 'Space Grotesk';
+        src: url(data:font/woff2;base64,d09GMgABAAAAAAS4ABEAAAAA7gQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGh4GYAAVgNAAAAH0AAABZgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAcG9zdAAAAGAAAABzcAAAJGwAAJxQcGx4YQAAAqAAAAA3bAAAAAgAqAJgbmFtZQAADKwAAATsAAAImgBSM5Rwb3N0AABRgAAAATYAAAEsAAC/73JwY2kAAGxQAAAAfQAAAEgAYQBsZ3BhcnQAAQ2QAAAACAAAAAQABAAAAAAAACAAAAAAAAAQAAAAAAAAAAMAAAAAAAAQAAAAAAAAAAKABkAAQAAAAAAAIAAgBLACoAAgAAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAZoD3QAAAADRCWPMwAAAANEJY8zAAAAA0QljzMAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgDqQEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=) format('woff2');
+        font-weight: 400 700;
+        font-display: block;
+      }
+      .card { fill: #0f172a; stroke: #1e293b; rx: 16; filter: drop-shadow(0 4px 16px #000a); }
+      .card-icon { filter: drop-shadow(0 0 8px currentColor); }
+      .card-title { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 16px; font-weight: 600; fill: #e2e8f0; dominant-baseline: middle; text-anchor: middle; }
+      .card-desc { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 12px; fill: #64748b; dominant-baseline: middle; text-anchor: middle; }
+      .arrow { fill: none; stroke: #a855f7; stroke-width: 3; stroke-dasharray: 10 8; opacity: 0.7; filter: drop-shadow(0 0 8px #a855f7); }
+      @media (prefers-reduced-motion: reduce) {
+        .char-float [animation], .arrow-draw [animation] { animation: none !important; }
+      }
+    ]]></style>
+    <linearGradient id="card-gradient-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="card-gradient-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="card-gradient-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow-violet" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#a855f7" flood-opacity="0.6" result="glow"/>
+      <feComposite in="glow" in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic" operator="over"/>
+    </filter>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#030712"/>
+  <ellipse cx="200" cy="200" rx="250" ry="220" fill="url(#spotlight)"/>
+  
+  <g class="char-float" transform="translate(120, 200)">
+    <image href="./assets/right_pointing.png" x="-150" y="-200" width="300" height="400" preserveAspectRatio="xMidYMid meet"/>
+    <animateTransform attributeName="transform" type="translate" values="120,200;120,192;120,200" dur="3s" repeatCount="indefinite" additive="sum"/>
+    <g id="char-fallback" style="display:none;">
+      <ellipse cx="0" cy="-50" rx="75" ry="100" fill="#1e1b4b" stroke="#a855f7" stroke-width="2"/>
+      <circle cx="0" cy="-85" r="35" fill="#0f172a" stroke="#a855f7" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-40" rx="25" ry="15" fill="#a855f7" opacity="0.3"/>
+      <path d="M50,25 Q100,0 125,-25" fill="none" stroke="#a855f7" stroke-width="4" stroke-linecap="round"/>
+      <polygon points="125,-25 115,-19 115,-31" fill="#a855f7"/>
+    </g>
+  </g>
+  
+  <g class="arrow-draw" transform="translate(270, 200)">
+    <path class="arrow" d="M0,0 Q100,-50 200,-50">
+      <animate attributeName="stroke-dashoffset" values="24;-24;24" dur="2s" repeatCount="indefinite" begin="0s"/>
+    </path>
+    <path class="arrow" d="M0,0 Q100,0 200,0">
+      <animate attributeName="stroke-dashoffset" values="24;-24;24" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    </path>
+    <path class="arrow" d="M0,0 Q100,50 200,50">
+      <animate attributeName="stroke-dashoffset" values="24;-24;24" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+    </path>
+  </g>
+  
+  <g transform="translate(500, 50)">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.1s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="530,50;500,50" dur="0.6s" begin="0.1s" fill="freeze" additive="sum"/>
+      <rect class="card" x="0" y="0" width="280" height="120" rx="16"/>
+      <rect x="0" y="0" width="280" height="120" rx="16" fill="url(#card-gradient-1)"/>
+      <circle class="card-icon" cx="140" cy="35" r="24" fill="#0A66C2"/>
+      <path class="card-icon" d="M126,35 L121,30 L121,40 Z M131,30 L131,40 M136,30 L136,40 M141,35 L146,30 L146,40 Z" fill="white" stroke-width="0.5"/>
+      <text class="card-title" x="140" y="75">LinkedIn</text>
+      <text class="card-desc" x="140" y="95">somen-bauri-3a801a442</text>
+      <a href="https://www.linkedin.com/in/somen-bauri-3a801a442" target="_blank" rel="noopener">
+        <rect x="0" y="0" width="280" height="120" rx="16" fill="transparent"/>
+      </a>
+    </g>
+    
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.25s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="530,190;500,190" dur="0.6s" begin="0.25s" fill="freeze" additive="sum"/>
+      <rect class="card" x="0" y="0" width="280" height="120" rx="16"/>
+      <rect x="0" y="0" width="280" height="120" rx="16" fill="url(#card-gradient-2)"/>
+      <circle class="card-icon" cx="140" cy="35" r="24" fill="#181717"/>
+      <path class="card-icon" d="M140,17 C153.8,17 165,28.2 165,42 C165,57.5 155,70 135,80 C135,71 135,73 135,74 C135,76 133,78 131,78 C126,78 122,75 122,70 C102,60 92,47.5 92,32 C92,17.8 103.2,17 127,17 C128.5,17 130,17.1 131.5,17.1 L131.5,17 Z M131.5,17 C133,17 134.5,17.1 136,17.1 L136,17 C137.5,17 139,16.9 140.5,16.9 L140.5,17 C142,17 143.5,17.1 145,17.1 L145,17 C146.5,17 148,16.9 149.5,16.9 L149.5,17 C151,17 152.5,17.1 154,17.1 L154,17 C155.5,17 157,16.9 158.5,16.9 L158.5,17 C160,17 161.5,17.1 163,17.1 L163,17 C164.5,17 166,16.9 167.5,16.9 L167.5,17 C169,17 170.5,17.1 172,17.1 L172,17 C173.5,17 175,16.9 176.5,16.9 L176.5,17 C178,17 179.5,17.1 181,17.1 L181,17" fill="white" transform="scale(0.4) translate(50, 30)"/>
+      <text class="card-title" x="140" y="75">GitHub</text>
+      <text class="card-desc" x="140" y="95">Somenbauri</text>
+      <a href="https://github.com/Somenbauri" target="_blank" rel="noopener">
+        <rect x="0" y="0" width="280" height="120" rx="16" fill="transparent"/>
+      </a>
+    </g>
+    
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" values="530,330;500,330" dur="0.6s" begin="0.4s" fill="freeze" additive="sum"/>
+      <rect class="card" x="0" y="0" width="280" height="120" rx="16"/>
+      <rect x="0" y="0" width="280" height="120" rx="16" fill="url(#card-gradient-3)"/>
+      <circle class="card-icon" cx="140" cy="35" r="24" fill="#D14836"/>
+      <path class="card-icon" d="M84,28 L140,55 L196,28 L196,82 L84,82 Z M84,28 L140,63 L196,28" fill="none" stroke="white" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+      <text class="card-title" x="140" y="75">Email</text>
+      <text class="card-desc" x="140" y="95">somenbauri.dev@gmail.com</text>
+      <a href="mailto:somenbauri.dev@gmail.com" target="_blank" rel="noopener">
+        <rect x="0" y="0" width="280" height="120" rx="16" fill="transparent"/>
+      </a>
+    </g>
+  </g>
+  
+  <text x="600" y="40" font-family="'Space Grotesk', system-ui, sans-serif" font-size="20" font-weight="700" fill="#e2e8f0" text-anchor="middle">LET'S CONNECT</text>
+  <text x="600" y="65" font-family="'Space Grotesk', system-ui, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Click cards to open • Links also below in README</text>
+</svg>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Somen Bauri — GitHub Profile Preview</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: #030712;
+      color: #e2e8f0;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    .container { max-width: 960px; margin: 0 auto; }
+    h1 { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 2rem; font-weight: 700; margin-bottom: 1rem; background: linear-gradient(90deg, #e2e8f0, #a855f7, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .preview-grid { display: grid; gap: 32px; margin-top: 2rem; }
+    .preview-card {
+      background: #0f172a;
+      border: 1px solid #1e293b;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+    .preview-card h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 16px; color: #a855f7; }
+    .svg-wrapper { overflow: auto; border-radius: 12px; background: #030712; border: 1px solid #1e293b; }
+    .svg-wrapper img, .svg-wrapper svg { display: block; max-width: 100%; height: auto; }
+    .readme-preview { background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 32px; font-size: 0.9rem; line-height: 1.7; overflow: auto; max-height: 600px; }
+    .readme-preview img { max-width: 100%; height: auto; border-radius: 8px; margin: 16px 0; }
+    .readme-preview table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+    .readme-preview th, .readme-preview td { padding: 10px 12px; border: 1px solid #30363d; text-align: left; }
+    .readme-preview th { background: #161b22; font-weight: 600; }
+    .readme-preview code { background: #1e293b; padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; }
+    .readme-preview a { color: #a855f7; text-decoration: none; }
+    .readme-preview a:hover { text-decoration: underline; }
+    .readme-preview blockquote { border-left: 3px solid #a855f7; padding-left: 16px; margin: 16px 0; color: #94a3b8; font-style: italic; }
+    .readme-preview hr { border: none; border-top: 1px solid #30363d; margin: 24px 0; }
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; font-size: 0.75rem; font-weight: 600; margin: 4px; }
+    .badge-github { background: #181717; color: #fff; }
+    .badge-linkedin { background: #0A66C2; color: #fff; }
+    .badge-email { background: #D14836; color: #fff; }
+    .notice { background: #1e1b4b; border: 1px solid #a855f7; border-radius: 8px; padding: 16px; margin-bottom: 24px; }
+    .notice strong { color: #a855f7; }
+    @media (max-width: 768px) {
+      .preview-grid { grid-template-columns: 1fr; }
+      .readme-preview { font-size: 0.85rem; }
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🔭 GitHub Profile Preview — Somen Bauri</h1>
+    
+    <div class="notice">
+      <strong>Testing Instructions:</strong>
+      <ol style="margin: 12px 0 0 20px; line-height: 2;">
+        <li>Place <code>id.png</code> and <code>right_pointing.png</code> in the <code>assets/</code> folder</li>
+        <li>Open this file in a browser to preview all SVGs</li>
+        <li>Test with <strong>Reduced Motion</strong> enabled (OS settings → Accessibility → Reduce Motion)</li>
+        <li>Check mobile view (DevTools device toolbar)</li>
+        <li>Verify all links work and images load</li>
+      </ol>
+    </div>
+
+    <div class="preview-grid">
+      <div class="preview-card">
+        <h2>🎬 hero.svg</h2>
+        <div class="svg-wrapper">
+          <img src="./assets/hero.svg?v=1" alt="Hero section preview" width="1200" height="400">
+        </div>
+        <p style="margin-top: 12px; font-size: 0.85rem; color: #64748b;">Name reveal mask • 4 cycling roles • Pitch • Meta row • Portrait with glow rings</p>
+      </div>
+
+      <div class="preview-card">
+        <h2>🎠 about-life.svg</h2>
+        <div class="svg-wrapper">
+          <img src="./assets/about-life.svg?v=1" alt="About-life section preview" width="1200" height="400">
+        </div>
+        <p style="margin-top: 12px; font-size: 0.85rem; color: #64748b;">Capabilities list • 3-slide interests carousel (12s cycle) • Segment progress bars</p>
+      </div>
+
+      <div class="preview-card">
+        <h2>🪐 stack.svg</h2>
+        <div class="svg-wrapper">
+          <img src="./assets/stack.svg?v=1" alt="Tech stack orbital preview" width="1200" height="500">
+        </div>
+        <p style="margin-top: 12px; font-size: 0.85rem; color: #64748b;">3 tilted orbital rings (12s/16s/20s) • 15 planets • 6 bottom chips • Respects reduced motion</p>
+      </div>
+
+      <div class="preview-card">
+        <h2>🪪 id-dashboard.svg</h2>
+        <div class="svg-wrapper">
+          <img src="./assets/id-dashboard.svg?v=1" alt="ID dashboard preview" width="600" height="700">
+        </div>
+        <p style="margin-top: 12px; font-size: 0.85rem; color: #64748b;">Hanging lanyard ID • Metal clasp • Portrait • Barcode • Verified metrics • Pendulum swing</p>
+      </div>
+
+      <div class="preview-card">
+        <h2>🤝 connect.svg</h2>
+        <div class="svg-wrapper">
+          <img src="./assets/connect.svg?v=1" alt="Connect section preview" width="1200" height="400">
+        </div>
+        <p style="margin-top: 12px; font-size: 0.85rem; color: #64748b;">Character pointing • 3 animated arrows • 3 social cards (LinkedIn, GitHub, Email) • Staggered entrance</p>
+      </div>
+    </div>
+
+    <div class="preview-card" style="margin-top: 24px;">
+      <h2>📄 README.md Rendered Preview</h2>
+      <div class="readme-preview" id="readme-preview">
+        <!-- Rendered via JS below -->
+      </div>
+    </div>
+
+    <div class="preview-card" style="margin-top: 24px;">
+      <h2>📁 Required File Structure</h2>
+      <pre style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: #94a3b8; white-space: pre-wrap;">Somenbauri/ (profile repo root)
+├── README.md
+└── assets/
+    ├── hero.svg
+    ├── about-life.svg
+    ├── stack.svg
+    ├── id-dashboard.svg
+    ├── connect.svg
+    ├── id.png              ← YOUR FILE
+    └── right_pointing.png  ← YOUR FILE</pre>
+    </div>
+
+    <div class="preview-card" style="margin-top: 24px;">
+      <h2>✅ Verification Checklist</h2>
+      <ul style="line-height: 2; color: #94a3b8;">
+        <li>☐ All 5 SVGs render without errors</li>
+        <li>☐ Animations play smoothly (12s, 16s, 20s loops)</li>
+        <li>☐ <strong>Reduced motion</strong> disables all animations cleanly</li>
+        <li>☐ Mobile width (<640px) — no horizontal overflow</li>
+        <li>☐ <code>id.png</code> loads in hero.svg (portrait) and id-dashboard.svg</li>
+        <li>☐ <code>right_pointing.png</code> loads in connect.svg (character)</li>
+        <li>☐ All links in connect.svg cards are clickable</li>
+        <li>☐ No external network requests (check DevTools Network tab)</li>
+        <li>☐ README.md images reference <code>./assets/*.svg?v=1</code></li>
+        <li>☐ Profile repo named exactly: <code>Somenbauri/Somenbauri</code></li>
+        <li>☐ No fake stats, clients, revenue, jobs, or achievements</li>
+        <li>☐ FTC CAD shows SolidWorks (not OnShape)</li>
+        <li>☐ No specific individual FTC role claimed</li>
+        <li>☐ ASVEXA.AI shown as personal venture only</li>
+        <li>☐ Tech stack only includes verified technologies</li>
+        <li>☐ Home Appliance Automation & Sensor Stick have no unverified tech details</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    // Simple markdown-ish renderer for preview
+    const readmeContent = `# Somen Bauri
+
+![Intro](./assets/hero.svg?v=1)
+
+**Student & Web Developer** • AI-Assisted Development • Workflow Automation • Building Practical Digital Solutions
+
+📍 Mumbai, India • 🎓 Drop Year after 12th (Science) • Lions Public School
+
+---
+
+## 🤖 FTC Robotics — Team Astrobot #22988
+
+**Robot:** \`Naagin\`
+
+- **Stack:** Java • SolidWorks CAD • 3D Printing • CNC Machining • Mecanum Drive • Odometry
+- **Subsystems:** Claw • Plunger • Hanger • Arm • Wrist • Bucket • Lifter • Drone Shooter
+- **Competitions:** FTC Goa • Exhibition at V.J.T.I. Mumbai • Scrimmage at Dhirubhai Ambani International School
+- **Program:** The Innovation Story • Sponsored by Salam Bombay Foundation
+
+[📄 View 16-Page Engineering Portfolio](https://github.com/Somenbauri/ftc-engineering-portfolio/blob/main/FTC-Engineering-Portfolio-Team-Astrobot-22988.pdf) · [📦 Repository](https://github.com/Somenbauri/ftc-engineering-portfolio)
+
+![About](./assets/about-life.svg?v=1)
+
+---
+
+## 🛠️ Tech Stack
+
+![Stack](./assets/stack.svg?v=1)
+
+| Frontend | Languages | Tools & Environment | AI & Automation |
+|----------|-----------|---------------------|-----------------|
+| HTML • CSS • JavaScript • Astro | Java | Git • GitHub • Termux • Ubuntu (proot) • Acode • OpenCode | AI-assisted coding • Workflow automation • Agent-based development |
+
+> **Development Environment:** Samsung Galaxy A35 5G (8GB/256GB) — full Linux dev environment via Termux + proot
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description | Tech | Repo | Demo |
+|---------|-------------|------|------|------|
+| **FTC Engineering Portfolio** | 16-page portfolio documenting Team Astrobot #22988's robot development, programming, CAD, fabrication & competition journey | PDF • Java • CAD | [GitHub](https://github.com/Somenbauri/ftc-engineering-portfolio) | — |
+| **Home Appliance Automation** | IoT-based home automation system | — | *Private / In Progress* | — |
+| **Sensor Stick for Blind Assistance** | Ultrasonic sensor-based navigation aid with haptic feedback | — | *Private / In Progress* | — |
+
+> **Note:** Web development projects are in progress. Repositories will be published as they reach a shareable state.
+
+---
+
+## 🧠 AI-Assisted Development Approach
+
+I use AI as a **force multiplier** across my development workflow:
+
+- **Planning & Architecture:** Breaking down features, designing data models, API contracts
+- **Code Generation:** Boilerplate, repetitive patterns, test scaffolding
+- **Debugging:** Error analysis, root-cause hypotheses, fix suggestions
+- **UI/UX Exploration:** Component variants, accessibility checks, responsive patterns
+- **Learning:** Explaining unfamiliar concepts, comparing approaches, best practices
+
+**Tools:** OpenCode • GitHub Copilot • Claude • Local LLMs via Termux
+
+> *Not an "AI Engineer" — a developer who uses AI effectively to build faster and learn deeper.*
+
+---
+
+## 📅 Development Journey
+
+\`\`\`
+2023  ▸ FTC Robotics (Team Astrobot #22988) • Snapchat AR Hackathon
+2024  ▸ FTC Goa • Exhibitions (VJTI, DAIS) • Home Appliance Automation • Sensor Stick for Blind Assistance
+2025  ▸ Snapchat AR Hackathon • Continued Robotics
+2026  ▸ Web Development Focus • AI-Assisted Workflows • ASVEXA.AI (Personal Venture) • GitHub Profile Launch
+\`\`\`
+
+---
+
+## 📊 Verified Metrics
+
+![ID](./assets/id-dashboard.svg?v=1)
+
+---
+
+## 📬 Connect
+
+![Connect](./assets/connect.svg?v=1)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/somen-bauri-3a801a442)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Somenbauri)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:somenbauri.dev@gmail.com)
+
+---
+
+> **Verified:** 16-page FTC Engineering Portfolio • Team Astrobot #22988`;
+
+    function simpleMarkdownToHtml(md) {
+      return md
+        .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+        .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+        .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+        .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/gim, '<em>$1</em>')
+        .replace(/`(.*?)`/gim, '<code>$1</code>')
+        .replace(/^> (.*$)/gim, '<blockquote>$1</blockquote>')
+        .replace(/^\-\s(.*$)/gim, '<li>$1</li>')
+        .replace(/^\d+\.\s(.*$)/gim, '<li>$1</li>')
+        .replace(/\n\n/gim, '</p><p>')
+        .replace(/\n/gim, '<br>');
+    }
+    
+    document.getElementById('readme-preview').innerHTML = simpleMarkdownToHtml(readmeContent);
+  </script>
+</body>
+</html>

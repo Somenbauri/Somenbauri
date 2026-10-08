@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="About section with capabilities and interests carousel">
+  <defs>
+    <style><![CDATA[
+      @font-face {
+        font-family: 'Space Grotesk';
+        src: url(data:font/woff2;base64,d09GMgABAAAAAAS4ABEAAAAA7gQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGh4GYAAVgNAAAAH0AAABZgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAcG9zdAAAAGAAAABzcAAAJGwAAJxQcGx4YQAAAqAAAAA3bAAAAAgAqAJgbmFtZQAADKwAAATsAAAImgBSM5Rwb3N0AABRgAAAATYAAAEsAAC/73JwY2kAAGxQAAAAfQAAAEgAYQBsZ3BhcnQAAQ2QAAAACAAAAAQABAAAAAAAACAAAAAAAAAQAAAAAAAAAAMAAAAAAAAQAAAAAAAAAAKABkAAQAAAAAAAIAAgBLACoAAgAAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAZoD3QAAAADRCWPMwAAAANEJY8zAAAAA0QljzMAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgDqQEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=) format('woff2');
+        font-weight: 400 700;
+        font-display: block;
+      }
+      .section-title { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 24px; font-weight: 700; fill: #e2e8f0; text-anchor: start; dominant-baseline: middle; }
+      .capability-title { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 16px; font-weight: 600; fill: #e2e8f0; text-anchor: start; dominant-baseline: middle; }
+      .capability-desc { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 13px; fill: #94a3b8; text-anchor: start; dominant-baseline: middle; }
+      .interest-title { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 18px; font-weight: 700; fill: #e2e8f0; text-anchor: middle; dominant-baseline: middle; }
+      .interest-desc { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 14px; fill: #94a3b8; text-anchor: middle; dominant-baseline: middle; }
+      .progress-bg { fill: #1e293b; rx: 4; }
+      .progress-fill { fill: #a855f7; rx: 4; }
+      .card { fill: #0f172a; stroke: #1e293b; rx: 16; filter: drop-shadow(0 4px 16px #000a); }
+      .slide { opacity: 0; }
+      @media (prefers-reduced-motion: reduce) {
+        .slide { opacity: 1 !important; }
+        [animation] { animation: none !important; }
+      }
+      @keyframes slideIn { from { opacity: 0; transform: translateX(30px); } to { opacity: 1; transform: translateX(0); } }
+      @keyframes progress { from { width: 0; } to { width: 100%; } }
+    ]]></style>
+    <radialGradient id="spotlight" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#030712"/>
+  <ellipse cx="600" cy="0" rx="400" ry="300" fill="url(#spotlight)"/>
+  
+  <text class="section-title" x="60" y="50">CAPABILITIES</text>
+  
+  <g transform="translate(60, 90)">
+    <g class="capability">
+      <text class="capability-title" x="0" y="0" opacity="0">Web Development</text>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze" xlink:href="#cap1"/>
+      <text class="capability-desc" x="0" y="24" opacity="0">HTML, CSS, JavaScript, Astro — building responsive, accessible interfaces</text>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze" xlink:href="#cap2"/>
+    </g>
+    <g class="capability" transform="translate(0, 60)">
+      <text class="capability-title" x="0" y="0" opacity="0">AI-Assisted Development</text>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>
+      <text class="capability-desc" x="0" y="24" opacity="0">OpenCode, GitHub Copilot, Claude — planning, debugging, code generation, UI exploration</text>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.6s" fill="freeze"/>
+    </g>
+    <g class="capability" transform="translate(0, 120)">
+      <text class="capability-title" x="0" y="0" opacity="0">Workflow Automation</text>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.7s" fill="freeze"/>
+      <text class="capability-desc" x="0" y="24" opacity="0">Git, Termux, Linux on mobile — automating repetitive tasks, streamlining dev loops</text>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>
+    </g>
+    <g class="capability" transform="translate(0, 180)">
+      <text class="capability-title" x="0" y="0" opacity="0">Robotics & Fabrication</text>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.9s" fill="freeze"/>
+      <text class="capability-desc" x="0" y="24" opacity="0">Java, SolidWorks CAD, 3D printing, CNC — FTC Team Astrobot #22988</text>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.0s" fill="freeze"/>
+    </g>
+  </g>
+  
+  <text class="section-title" x="660" y="50">INTERESTS</text>
+  
+  <g transform="translate(660, 90)">
+    <rect class="card" x="0" y="0" width="480" height="280" rx="16"/>
+    
+    <g class="slide" id="slide1" transform="translate(240, 140)">
+      <text class="interest-title" x="0" y="-40">FTC Robotics</text>
+      <text class="interest-desc" x="0" y="10" style="max-width: 400px;">Team Astrobot #22988 — Robot: Naagin. Java programming, SolidWorks CAD, 3D printing, CNC machining. Exhibitions at VJTI Mumbai and DAIS.</text>
+      <rect class="progress-bg" x="-120" y="60" width="240" height="8"/>
+      <rect class="progress-fill" x="-120" y="60" width="0" height="8">
+        <animate attributeName="width" values="0;240" dur="4s" repeatCount="indefinite" keyTimes="0;1" begin="0s"/>
+      </rect>
+    </g>
+    
+    <g class="slide" id="slide2" transform="translate(240, 140)" opacity="0">
+      <text class="interest-title" x="0" y="-40">AI-Assisted Workflows</text>
+      <text class="interest-desc" x="0" y="10" style="max-width: 400px;">Using OpenCode, Copilot, Claude for planning, debugging, code generation, and UI exploration. Termux + Linux on Samsung Galaxy A35.</text>
+      <rect class="progress-bg" x="-120" y="60" width="240" height="8"/>
+      <rect class="progress-fill" x="-120" y="60" width="0" height="8">
+        <animate attributeName="width" values="0;240" dur="4s" repeatCount="indefinite" keyTimes="0;1" begin="4s"/>
+      </rect>
+    </g>
+    
+    <g class="slide" id="slide3" transform="translate(240, 140)" opacity="0">
+      <text class="interest-title" x="0" y="-40">Building Practical Solutions</text>
+      <text class="interest-desc" x="0" y="10" style="max-width: 400px;">Home appliance automation, sensor stick for blind assistance, ASVEXA.AI personal venture. Focus on useful, deployable projects.</text>
+      <rect class="progress-bg" x="-120" y="60" width="240" height="8"/>
+      <rect class="progress-fill" x="-120" y="60" width="0" height="8">
+        <animate attributeName="width" values="0;240" dur="4s" repeatCount="indefinite" keyTimes="0;1" begin="8s"/>
+      </rect>
+    </g>
+  </g>
+  
+  <script><![CDATA[
+    // SMIL-based carousel - no JS needed, using animate with keyTimes
+    // The progress bars and slide visibility are handled by SMIL animations
+  ]]></script>
+  
+  <!-- SMIL animations for slide carousel -->
+  <animate xlink:href="#slide1" attributeName="opacity" values="1;1;0;0;0" dur="12s" repeatCount="indefinite" keyTimes="0;0.3;0.33;1" begin="0s"/>
+  <animate xlink:href="#slide2" attributeName="opacity" values="0;0;1;1;0" dur="12s" repeatCount="indefinite" keyTimes="0;0.33;0.63;0.66;1" begin="0s"/>
+  <animate xlink:href="#slide3" attributeName="opacity" values="0;0;0;0;1" dur="12s" repeatCount="indefinite" keyTimes="0;0.66;1" begin="0s"/>
+</svg>

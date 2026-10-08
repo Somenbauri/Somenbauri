@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img" aria-label="Tech stack orbital visualization">
+  <defs>
+    <style><![CDATA[
+      @font-face {
+        font-family: 'Space Grotesk';
+        src: url(data:font/woff2;base64,d09GMgABAAAAAAS4ABEAAAAA7gQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGh4GYAAVgNAAAAH0AAABZgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAcG9zdAAAAGAAAABzcAAAJGwAAJxQcGx4YQAAAqAAAAA3bAAAAAgAqAJgbmFtZQAADKwAAATsAAAImgBSM5Rwb3N0AABRgAAAATYAAAEsAAC/73JwY2kAAGxQAAAAfQAAAEgAYQBsZ3BhcnQAAQ2QAAAACAAAAAQABAAAAAAAACAAAAAAAAAQAAAAAAAAAAMAAAAAAAAQAAAAAAAAAAKABkAAQAAAAAAAIAAgBLACoAAgAAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAZoD3QAAAADRCWPMwAAAANEJY8zAAAAA0QljzMAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgDqQEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=) format('woff2');
+        font-weight: 400 700;
+        font-display: block;
+      }
+      .orbit { fill: none; stroke: #1e293b; stroke-width: 1.5; opacity: 0.6; }
+      .orbit-inner { fill: none; stroke: #334155; stroke-width: 1; opacity: 0.4; }
+      .planet { filter: drop-shadow(0 0 8px currentColor); }
+      .label { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 11px; fill: #94a3b8; text-anchor: middle; dominant-baseline: middle; }
+      .label-title { font-size: 14px; font-weight: 600; fill: #e2e8f0; }
+      .category { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 14px; font-weight: 600; fill: #a855f7; text-anchor: middle; }
+      .chip { fill: #0f172a; stroke: #1e293b; rx: 999; filter: drop-shadow(0 2px 8px #0008); }
+      .chip-text { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 10px; fill: #cbd5e1; dominant-baseline: middle; text-anchor: middle; }
+      .chip:hover { stroke: #a855f7; fill: #1e1b4b; cursor: pointer; }
+      @media (prefers-reduced-motion: reduce) {
+        .orbit-anim, .planet-anim { animation: none !important; }
+        [animation] { animation: none !important; }
+      }
+    ]]></style>
+    <radialGradient id="glow-violet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-crimson" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="starfield" x="-50%" y="-50%" width="200%" height="200%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 10 -5" result="stars"/>
+      <feComposite in="SourceGraphic" in2="stars" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#030712" filter="url(#starfield)"/>
+  
+  <g transform="translate(600, 220)">
+    <ellipse class="orbit" rx="180" ry="60" transform="rotate(-15)"/>
+    <ellipse class="orbit-inner" rx="170" ry="55" transform="rotate(-15)"/>
+    <text class="category" x="0" y="-210" transform="rotate(-15)">FRONTEND</text>
+    
+    <ellipse class="orbit" rx="230" ry="75" transform="rotate(12)"/>
+    <ellipse class="orbit-inner" rx="220" ry="70" transform="rotate(12)"/>
+    <text class="category" x="0" y="-260" transform="rotate(12)">LANGUAGES</text>
+    
+    <ellipse class="orbit" rx="280" ry="95" transform="rotate(0)"/>
+    <ellipse class="orbit-inner" rx="270" ry="90" transform="rotate(0)"/>
+    <text class="category" x="0" y="-310">TOOLS & AI</text>
+  </g>
+  
+  <g transform="translate(600, 220)">
+    <g class="planet" transform="rotate(-15)">
+      <animateTransform attributeName="transform" type="rotate" values="-15;345" dur="12s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="175" cy="0" r="30" fill="url(#glow-violet)"/>
+      <circle cx="175" cy="0" r="26" fill="#0f172a" stroke="#a855f7" stroke-width="1.5" class="planet"/>
+      <text x="175" y="2" class="label label-title" fill="#a855f7">HTML</text>
+      <text x="175" y="18" class="label" fill="#64748b">CSS</text>
+    </g>
+    <g class="planet" transform="rotate(57)">
+      <animateTransform attributeName="transform" type="rotate" values="57;417" dur="12s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="175" cy="0" r="30" fill="url(#glow-violet)"/>
+      <circle cx="175" cy="0" r="26" fill="#0f172a" stroke="#a855f7" stroke-width="1.5"/>
+      <text x="175" y="2" class="label label-title" fill="#a855f7">JS</text>
+      <text x="175" y="18" class="label" fill="#64748b">Astro</text>
+    </g>
+    <g class="planet" transform="rotate(129)">
+      <animateTransform attributeName="transform" type="rotate" values="129;489" dur="12s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="175" cy="0" r="30" fill="url(#glow-violet)"/>
+      <circle cx="175" cy="0" r="26" fill="#0f172a" stroke="#a855f7" stroke-width="1.5"/>
+      <text x="175" y="2" class="label label-title" fill="#a855f7">Frontend</text>
+      <text x="175" y="18" class="label" fill="#64748b">Web Dev</text>
+    </g>
+    <g class="planet" transform="rotate(201)">
+      <animateTransform attributeName="transform" type="rotate" values="201;561" dur="12s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="175" cy="0" r="30" fill="url(#glow-violet)"/>
+      <circle cx="175" cy="0" r="26" fill="#0f172a" stroke="#a855f7" stroke-width="1.5"/>
+      <text x="175" y="2" class="label label-title" fill="#a855f7">Responsive</text>
+      <text x="175" y="18" class="label" fill="#64748b">Design</text>
+    </g>
+    <g class="planet" transform="rotate(273)">
+      <animateTransform attributeName="transform" type="rotate" values="273;633" dur="12s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="175" cy="0" r="30" fill="url(#glow-violet)"/>
+      <circle cx="175" cy="0" r="26" fill="#0f172a" stroke="#a855f7" stroke-width="1.5"/>
+      <text x="175" y="2" class="label label-title" fill="#a855f7">Accessible</text>
+      <text x="175" y="18" class="label" fill="#64748b">UI</text>
+    </g>
+  </g>
+  
+  <g transform="translate(600, 220)">
+    <g class="planet" transform="rotate(12)">
+      <animateTransform attributeName="transform" type="rotate" values="12;372" dur="16s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="225" cy="0" r="32" fill="url(#glow-cyan)"/>
+      <circle cx="225" cy="0" r="28" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5"/>
+      <text x="225" y="2" class="label label-title" fill="#06b6d4">Java</text>
+      <text x="225" y="19" class="label" fill="#64748b">FTC Robotics</text>
+    </g>
+    <g class="planet" transform="rotate(102)">
+      <animateTransform attributeName="transform" type="rotate" values="102;462" dur="16s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="225" cy="0" r="32" fill="url(#glow-cyan)"/>
+      <circle cx="225" cy="0" r="28" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5"/>
+      <text x="225" y="2" class="label label-title" fill="#06b6d4">JavaScript</text>
+      <text x="225" y="19" class="label" fill="#64748b">ES6+</text>
+    </g>
+    <g class="planet" transform="rotate(192)">
+      <animateTransform attributeName="transform" type="rotate" values="192;552" dur="16s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="225" cy="0" r="32" fill="url(#glow-cyan)"/>
+      <circle cx="225" cy="0" r="28" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5"/>
+      <text x="225" y="2" class="label label-title" fill="#06b6d4">Python</text>
+      <text x="225" y="19" class="label" fill="#64748b">Scripting</text>
+    </g>
+    <g class="planet" transform="rotate(282)">
+      <animateTransform attributeName="transform" type="rotate" values="282;642" dur="16s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="225" cy="0" r="32" fill="url(#glow-cyan)"/>
+      <circle cx="225" cy="0" r="28" fill="#0f172a" stroke="#06b6d4" stroke-width="1.5"/>
+      <text x="225" y="2" class="label label-title" fill="#06b6d4">C++</text>
+      <text x="225" y="19" class="label" fill="#64748b">Arduino</text>
+    </g>
+  </g>
+  
+  <g transform="translate(600, 220)">
+    <g class="planet" transform="rotate(0)">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="20s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="275" cy="0" r="28" fill="url(#glow-crimson)"/>
+      <circle cx="275" cy="0" r="24" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5"/>
+      <text x="275" y="2" class="label label-title" fill="#f43f5e">Git</text>
+      <text x="275" y="18" class="label" fill="#64748b">GitHub</text>
+    </g>
+    <g class="planet" transform="rotate(55)">
+      <animateTransform attributeName="transform" type="rotate" values="55;415" dur="20s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="275" cy="0" r="28" fill="url(#glow-crimson)"/>
+      <circle cx="275" cy="0" r="24" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5"/>
+      <text x="275" y="2" class="label label-title" fill="#f43f5e">Termux</text>
+      <text x="275" y="18" class="label" fill="#64748b">Linux on Mobile</text>
+    </g>
+    <g class="planet" transform="rotate(115)">
+      <animateTransform attributeName="transform" type="rotate" values="115;475" dur="20s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="275" cy="0" r="28" fill="url(#glow-crimson)"/>
+      <circle cx="275" cy="0" r="24" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5"/>
+      <text x="275" y="2" class="label label-title" fill="#f43f5e">Acode</text>
+      <text x="275" y="18" class="label" fill="#64748b">Code Editor</text>
+    </g>
+    <g class="planet" transform="rotate(175)">
+      <animateTransform attributeName="transform" type="rotate" values="175;535" dur="20s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="275" cy="0" r="28" fill="url(#glow-crimson)"/>
+      <circle cx="275" cy="0" r="24" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5"/>
+      <text x="275" y="2" class="label label-title" fill="#f43f5e">OpenCode</text>
+      <text x="275" y="18" class="label" fill="#64748b">AI Agent</text>
+    </g>
+    <g class="planet" transform="rotate(235)">
+      <animateTransform attributeName="transform" type="rotate" values="235;595" dur="20s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="275" cy="0" r="28" fill="url(#glow-crimson)"/>
+      <circle cx="275" cy="0" r="24" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5"/>
+      <text x="275" y="2" class="label label-title" fill="#f43f5e">Copilot</text>
+      <text x="275" y="18" class="label" fill="#64748b">AI Pair Program</text>
+    </g>
+    <g class="planet" transform="rotate(295)">
+      <animateTransform attributeName="transform" type="rotate" values="295;655" dur="20s" repeatCount="indefinite" class="orbit-anim"/>
+      <circle cx="275" cy="0" r="28" fill="url(#glow-crimson)"/>
+      <circle cx="275" cy="0" r="24" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5"/>
+      <text x="275" y="2" class="label label-title" fill="#f43f5e">Claude</text>
+      <text x="275" y="18" class="label" fill="#64748b">Analysis & Plan</text>
+    </g>
+  </g>
+  
+  <g transform="translate(600, 420)">
+    <g class="chip-group" transform="translate(-320, 0)">
+      <rect class="chip" x="0" y="0" width="100" height="30" rx="15"/>
+      <text class="chip-text" x="50" y="17">SolidWorks CAD</text>
+    </g>
+    <g class="chip-group" transform="translate(-215, 0)">
+      <rect class="chip" x="0" y="0" width="100" height="30" rx="15"/>
+      <text class="chip-text" x="50" y="17">3D Printing</text>
+    </g>
+    <g class="chip-group" transform="translate(-110, 0)">
+      <rect class="chip" x="0" y="0" width="100" height="30" rx="15"/>
+      <text class="chip-text" x="50" y="17">CNC Machining</text>
+    </g>
+    <g class="chip-group" transform="translate(-5, 0)">
+      <rect class="chip" x="0" y="0" width="100" height="30" rx="15"/>
+      <text class="chip-text" x="50" y="17">Mecanum Drive</text>
+    </g>
+    <g class="chip-group" transform="translate(100, 0)">
+      <rect class="chip" x="0" y="0" width="100" height="30" rx="15"/>
+      <text class="chip-text" x="50" y="17">Odometry</text>
+    </g>
+    <g class="chip-group" transform="translate(205, 0)">
+      <rect class="chip" x="0" y="0" width="100" height="30" rx="15"/>
+      <text class="chip-text" x="50" y="17">Arduino</text>
+    </g>
+  </g>
+  
+  <text x="600" y="40" font-family="'Space Grotesk', system-ui, sans-serif" font-size="20" font-weight="700" fill="#e2e8f0" text-anchor="middle">TECH STACK</text>
+  <text x="600" y="65" font-family="'Space Grotesk', system-ui, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">Orbital visualization • Hover planets • Respects reduced motion</text>
+</svg>

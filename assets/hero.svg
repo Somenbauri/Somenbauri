@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Hero section with portrait, name reveal, roles, and pitch">
+  <defs>
+    <style><![CDATA[
+      @font-face {
+        font-family: 'Space Grotesk';
+        src: url(data:font/woff2;base64,d09GMgABAAAAAAS4ABEAAAAA7gQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGh4GYAAVgNAAAAH0AAABZgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAcG9zdAAAAGAAAABzcAAAJGwAAJxQcGx4YQAAAqAAAAA3bAAAAAgAqAJgbmFtZQAADKwAAATsAAAImgBSM5Rwb3N0AABRgAAAATYAAAEsAAC/73JwY2kAAGxQAAAAfQAAAEgAYQBsZ3BhcnQAAQ2QAAAACAAAAAQABAAAAAAAACAAAAAAAAAQAAAAAAAAAAMAAAAAAAAQAAAAAAAAAAKABkAAQAAAAAAAIAAgBLACoAAgAAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAZoD3QAAAADRCWPMwAAAANEJY8zAAAAA0QljzMAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgDqQEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=) format('woff2');
+        font-weight: 400 700;
+        font-display: block;
+      }
+      .name-text { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 56px; font-weight: 700; fill: #e2e8f0; dominant-baseline: middle; text-anchor: start; }
+      .role-text { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 20px; font-weight: 500; fill: #a855f7; dominant-baseline: middle; text-anchor: start; }
+      .pitch-text { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 16px; fill: #94a3b8; dominant-baseline: middle; text-anchor: start; }
+      .meta-text { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 14px; fill: #64748b; dominant-baseline: middle; text-anchor: start; }
+      .greeting { font-family: 'Space Grotesk', system-ui, sans-serif; font-size: 14px; font-weight: 600; fill: #06b6d4; dominant-baseline: middle; text-anchor: start; letter-spacing: 0.15em; text-transform: uppercase; }
+      .mask { fill: #030712; }
+      @media (prefers-reduced-motion: reduce) {
+        [animation] { animation: none !important; opacity: 1 !important; transform: none !important; }
+        .mask { display: none; }
+      }
+      @keyframes rise { from { y: 100%; } to { y: 0%; } }
+      @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    ]]></style>
+    <linearGradient id="name-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#030712" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="1"/>
+    </radialGradient>
+    <mask id="name-mask">
+      <rect x="0" y="0" width="500" height="100" fill="white">
+        <animate attributeName="y" values="100;0" dur="1.2s" easing="cubic-bezier(0.16,1,0.3,1)" fill="freeze" begin="0.5s"/>
+      </rect>
+    </mask>
+    <filter id="portrait-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="0" result="blur"/>
+      <feFlood flood-color="#a855f7" flood-opacity="0.3" result="glow"/>
+      <feComposite in="glow" in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic" operator="over"/>
+    </filter>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#030712"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
+  
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40,0 L0,0 0,40" fill="none" stroke="#1e293b" stroke-width="0.5" opacity="0.3"/>
+  </pattern>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  
+  <g transform="translate(880, 200)" filter="url(#portrait-glow)">
+    <clipPath id="portrait-clip">
+      <circle cx="0" cy="0" r="140"/>
+    </clipPath>
+    <image href="./assets/id.png" x="-140" y="-140" width="280" height="280" preserveAspectRatio="xMidYMid meet" clip-path="url(#portrait-clip)"/>
+    <circle cx="0" cy="0" r="142" fill="none" stroke="#a855f7" stroke-width="2" opacity="0.5">
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="146" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.3">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <g transform="translate(60, 200)">
+    <text class="greeting" x="0" y="-120" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/>Hey there
+    </text>
+    
+    <g mask="url(#name-mask)">
+      <text class="name-text" x="0" y="-50" fill="url(#name-gradient)">Somen Bauri</text>
+    </g>
+    
+    <g transform="translate(0, 40)">
+      <text class="role-text" x="0" y="0">
+        <tspan x="0">Student & Web Developer</tspan>
+        <animate attributeName="opacity" values="1;1;0;0;0;0" dur="10s" repeatCount="indefinite" keyTimes="0;0.2;0.25;1" begin="1.5s"/>
+      </text>
+      <text class="role-text" x="0" y="0" opacity="0">
+        <tspan x="0">AI-Assisted Development</tspan>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" dur="10s" repeatCount="indefinite" keyTimes="0;0.25;0.45;0.5;1" begin="1.5s"/>
+      </text>
+      <text class="role-text" x="0" y="0" opacity="0">
+        <tspan x="0">Workflow Automation</tspan>
+        <animate attributeName="opacity" values="0;0;0;0;1;1" dur="10s" repeatCount="indefinite" keyTimes="0;0.5;0.7;0.75;1" begin="1.5s"/>
+      </text>
+      <text class="role-text" x="0" y="0" opacity="0">
+        <tspan x="0">Building Practical Solutions</tspan>
+        <animate attributeName="opacity" values="0;0;0;0;0;1" dur="10s" repeatCount="indefinite" keyTimes="0;0.75;1" begin="1.5s"/>
+      </text>
+    </g>
+    
+    <text class="pitch-text" x="0" y="100" opacity="0" style="max-width: 600px;">
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="2.5s" fill="freeze"/>Student & Web Developer | AI-Assisted Development | AI & Workflow Automation | Building Practical Digital Solutions
+    </text>
+    
+    <g transform="translate(0, 140)">
+      <text class="meta-text" x="0" y="0" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.6s" begin="3s" fill="freeze"/>📍 Mumbai, India
+      </text>
+      <text class="meta-text" x="0" y="28" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.6s" begin="3.2s" fill="freeze"/>🎓 Drop Year after 12th (Science) · Lions Public School
+      </text>
+      <text class="meta-text" x="0" y="56" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.6s" begin="3.4s" fill="freeze"/>🤖 FTC Team Astrobot #22988 · Robot: Naagin
+      </text>
+    </g>
+  </g>
+  
+  <g stroke="#a855f7" stroke-width="1" opacity="0.4" transform="translate(60, 100)">
+    <line x1="0" y1="0" x2="140" y2="0">
+      <animate attributeName="x2" values="0;140" dur="1s" begin="0.8s" fill="freeze" easing="cubic-bezier(0.16,1,0.3,1)"/>
+    </line>
+    <line x1="0" y1="4" x2="70" y2="4" stroke="#06b6d4">
+      <animate attributeName="x2" values="0;70" dur="0.8s" begin="1s" fill="freeze" easing="cubic-bezier(0.16,1,0.3,1)"/>
+    </line>
+  </g>
+</svg>

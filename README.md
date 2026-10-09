@@ -1,10 +1,28 @@
 # Somen Bauri
 
-![Intro](./assets/id.png)
+<p align="center">
+  <img src="./assets/id.png" alt="Somen Bauri — Developer Portrait" width="280" />
+</p>
 
-**Student & Web Developer** • AI-Assisted Development • Workflow Automation • Building Practical Digital Solutions
+<p align="center">
+  <strong>Student & Web Developer</strong><br/>
+  AI-Assisted Development • Workflow Automation<br/>
+  Building Practical Digital Solutions
+</p>
 
-📍 Mumbai, India • 🎓 Drop Year after 12th (Science) • Lions Public School
+<p align="center">
+  📍 Mumbai, India · 🎓 Science Graduate Aspirant · 💻 Web Development
+</p>
+
+---
+
+## 👋 About Me
+
+I'm a student and web developer interested in building practical digital solutions through web development, AI-assisted development, and workflow automation.
+
+I enjoy using modern development tools and AI to explore ideas, build projects, solve problems, and continuously strengthen my technical skills.
+
+Currently learning, building personal projects, and exploring better ways to use technology to solve real-world problems.
 
 ---
 
@@ -12,82 +30,84 @@
 
 **Robot:** `Naagin`
 
-- **Stack:** Java • SolidWorks CAD • 3D Printing • CNC Machining • Mecanum Drive • Odometry
-- **Subsystems:** Claw • Plunger • Hanger • Arm • Wrist • Bucket • Lifter • Drone Shooter
-- **Competitions:** FTC Goa • Exhibition at V.J.T.I. Mumbai • Scrimmage at Dhirubhai Ambani International School
-- **Program:** The Innovation Story • Sponsored by Salam Bombay Foundation
+- **Technical areas:** Java programming • SolidWorks CAD • 3D printing • CNC machining
+- **Robot systems:** Mecanum drive • Odometry • Claw • Plunger • Hanger • Arm • Wrist • Bucket • Lifter • Drone shooter
+- **Events:** FTC Goa • Exhibition at V.J.T.I. Mumbai • Scrimmage at Dhirubhai Ambani International School
+- **Program:** The Innovation Story, sponsored by Salam Bombay Foundation
 
-[📄 View 16-Page Engineering Portfolio](https://github.com/Somenbauri/ftc-engineering-portfolio/blob/main/FTC-Engineering-Portfolio-Team-Astrobot-22988.pdf) · [📦 Repository](https://github.com/Somenbauri/ftc-engineering-portfolio)
+📄 **[Read the 16-page FTC Engineering Portfolio](https://github.com/Somenbauri/ftc-engineering-portfolio/blob/main/FTC-Engineering-Portfolio-Team-Astrobot-22988.pdf)**
 
-![About](./assets/id.png)
+📦 **[Explore the Portfolio Repository](https://github.com/Somenbauri/ftc-engineering-portfolio)**
 
 ---
 
 ## 🛠️ Tech Stack
 
-![Stack](./assets/stack.svg)
+| Category | Technologies |
+|---|---|
+| Frontend | HTML • CSS • JavaScript • Astro |
+| Programming | Java |
+| Development Tools | Git • GitHub • Acode • OpenCode |
+| Development Environment | Termux • Ubuntu (proot) |
+| AI & Automation | AI-assisted coding • Workflow automation • Agent-based development |
 
-| Frontend | Languages | Tools & Environment | AI & Automation |
-|----------|-----------|---------------------|-----------------|
-| HTML • CSS • JavaScript • Astro | Java | Git • GitHub • Termux • Ubuntu (proot) • Acode • OpenCode | AI-assisted coding • Workflow automation • Agent-based development |
-
-> **Development Environment:** Samsung Galaxy A35 5G (8GB/256GB) — full Linux dev environment via Termux + proot
+> **My setup:** Samsung Galaxy A35 5G, using Termux and Ubuntu (proot) for mobile development.
 
 ---
 
 ## 🚀 Featured Projects
 
-| Project | Description | Tech | Repo | Demo |
-|---------|-------------|------|------|------|
-| **FTC Engineering Portfolio** | 16-page portfolio documenting Team Astrobot #22988's robot development, programming, CAD, fabrication & competition journey | PDF • Java • CAD | [GitHub](https://github.com/Somenbauri/ftc-engineering-portfolio) | — |
-| **Home Appliance Automation** | IoT-based home automation system | — | *Private / In Progress* | — |
-| **Sensor Stick for Blind Assistance** | Ultrasonic sensor-based navigation aid with haptic feedback | — | *Private / In Progress* | — |
+| Project | Description | Status |
+|---|---|---|
+| **FTC Engineering Portfolio** | Documentation of Team Astrobot #22988's robotics development, programming, CAD, fabrication, and competition journey. | Published |
+| **Home Appliance Automation** | Personal project involving home appliance automation. | In progress |
+| **Sensor Stick for Blind Assistance** | Personal project involving an ultrasonic sensor-based navigation aid with haptic feedback. | In progress |
 
-> **Note:** Web development projects are in progress. Repositories will be published as they reach a shareable state.
+*Web development projects will be added as they reach a shareable state.*
 
 ---
 
-## 🧠 AI-Assisted Development Approach
+## 🧠 My AI-Assisted Development Workflow
 
-I use AI as a **force multiplier** across my development workflow:
+I use AI tools as part of my development and learning process.
 
-- **Planning & Architecture:** Breaking down features, designing data models, API contracts
-- **Code Generation:** Boilerplate, repetitive patterns, test scaffolding
-- **Debugging:** Error analysis, root-cause hypotheses, fix suggestions
-- **UI/UX Exploration:** Component variants, accessibility checks, responsive patterns
-- **Learning:** Explaining unfamiliar concepts, comparing approaches, best practices
+- **Planning:** Breaking down features and exploring implementation approaches.
+- **Development:** Using AI assistance to explore code and implementation patterns.
+- **Debugging:** Investigating errors and testing potential fixes.
+- **UI/UX:** Exploring interface ideas, responsive layouts, and accessibility.
+- **Learning:** Understanding unfamiliar concepts and comparing technical approaches.
 
-**Tools:** OpenCode • GitHub Copilot • Claude • Local LLMs via Termux
+**Tools I explore:** OpenCode • GitHub Copilot • Claude • Other AI development tools
 
-> *Not an "AI Engineer" — a developer who uses AI effectively to build faster and learn deeper.*
+> I use AI to support my development process while continuing to strengthen my own technical understanding.
 
 ---
 
 ## 📅 Development Journey
 
-```
-2023  ▸ FTC Robotics (Team Astrobot #22988) • Snapchat AR Hackathon
-2024  ▸ FTC Goa • Exhibitions (VJTI, DAIS) • Home Appliance Automation • Sensor Stick for Blind Assistance
-2025  ▸ Snapchat AR Hackathon • Continued Robotics
-2026  ▸ Web Development Focus • AI-Assisted Workflows • ASVEXA.AI (Personal Venture) • GitHub Profile Launch
-```
+- **2023:** FTC Robotics with Team Astrobot #22988 • Snapchat AR Hackathon
+- **2024:** FTC Goa • Robotics exhibitions • Home Appliance Automation • Sensor Stick for Blind Assistance
+- **2025:** Snapchat AR Hackathon • Continued robotics interests
+- **2026:** Web development • AI-assisted workflows • Personal projects
 
 ---
 
-## 📊 Verified Metrics
+## 📬 Connect With Me
 
-![ID](./assets/id-dashboard.svg?v=1)
+<p align="center">
+  <a href="https://github.com/Somenbauri">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/somen-bauri-3a801a442">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:somenbauri.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+</p>
 
 ---
 
-## 📬 Connect
-
-![Connect](./assets/connect.svg?v=1)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/somen-bauri-3a801a442)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Somenbauri)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:somenbauri.dev@gmail.com)
-
----
-
-> **Verified:** 16-page FTC Engineering Portfolio • Team Astrobot #22988
+<p align="center">
+  <i>Learning continuously. Building practically. Improving every day.</i>
+</p>

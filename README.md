@@ -1,6 +1,6 @@
 # Somen Bauri
 
-![Intro](./assets/hero.svg?v=1)
+![Intro](./assets/id.png)
 
 **Student & Web Developer** • AI-Assisted Development • Workflow Automation • Building Practical Digital Solutions
 

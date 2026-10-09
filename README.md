@@ -19,13 +19,13 @@
 
 [📄 View 16-Page Engineering Portfolio](https://github.com/Somenbauri/ftc-engineering-portfolio/blob/main/FTC-Engineering-Portfolio-Team-Astrobot-22988.pdf) · [📦 Repository](https://github.com/Somenbauri/ftc-engineering-portfolio)
 
-![About](./assets/about-life.svg?v=1)
+![About](./assets/id.png)
 
 ---
 
 ## 🛠️ Tech Stack
 
-![Stack](./assets/stack.svg?v=1)
+![Stack](./assets/stack.svg)
 
 | Frontend | Languages | Tools & Environment | AI & Automation |
 |----------|-----------|---------------------|-----------------|

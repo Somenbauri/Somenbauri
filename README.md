@@ -1,242 +1,187 @@
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                     SOMEN BAURI                            -->
-<!--              PERSONAL DEVELOPER PROFILE                   -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-<img src="./assets/id.png" width="190" alt="Somen Bauri"/>
-
-<br/>
+<img src="./assets/id.png" width="155" alt="Somen Bauri's Avatar">
 
 # SOMEN BAURI
 
-### `STUDENT` / `DEVELOPER` / `BUILDER`
+### Student • Web Developer • Builder
 
-**Turning curiosity into code. Exploring AI. Building things that matter.**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2200&pause=650&color=8B9DFF&center=true&vCenter=true&width=440&lines=Learning+by+Building;Exploring+Web+Development;Experimenting+with+AI;From+Ideas+to+Prototypes;Learn+%E2%86%92+Build+%E2%86%92+Improve" alt="Animated introduction">
 
-<br/>
+<br>
 
-[![GitHub](https://img.shields.io/badge/GITHUB-0A0D14?style=flat-square&logo=github&logoColor=white)](https://github.com/Somenbauri)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A0D14?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/somen-bauri-3a801a442)
-[![Email](https://img.shields.io/badge/CONTACT-0A0D14?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:somenbauri.dev@gmail.com)
+<a href="https://github.com/Somenbauri">
+  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+<a href="https://www.linkedin.com/in/somen-bauri-3a801a442">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="mailto:somenbauri.dev@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
 
-<br/>
+<br><br>
 
-`MUMBAI, INDIA` &nbsp;·&nbsp; `LEARNING IN PUBLIC` &nbsp;·&nbsp; `BUILDING IN PROGRESS`
+<img src="https://komarev.com/ghpvc/?username=Somenbauri&style=flat-square&color=7C3AED&label=PROFILE+VIEWS" alt="Profile views">
 
-</div>
+<br>
 
----
-
-<div align="center">
-
-`01 — THE MINDSET`
-
-</div>
-
-## Not here to collect tools. Here to build.
-
-I'm a student and web developer exploring the intersection of **web development, AI-assisted coding, and workflow automation.**
-
-I like taking an idea, breaking it down, experimenting with different approaches, and gradually turning it into something functional.
-
-I'm still learning, still experimenting, and still building my technical foundation.
-
-**My philosophy:** Use technology with purpose. Use AI thoughtfully. Understand what you build.
-
----
-
-<div align="center">
-
-`02 — ENGINEERING ARCHIVE`
-
-</div>
-
-## 🤖 FTC Robotics · Team Astrobot #22988
-
-> Before web development became my focus, robotics introduced me to engineering through experimentation, programming, design, and fabrication.
-
-### PROJECT FILE: `NAAGIN`
-
-| FIELD | DETAILS |
-|:---|:---|
-| **Team** | Astrobot #22988 |
-| **Programming** | Java |
-| **Design & Fabrication** | SolidWorks CAD · 3D Printing · CNC Machining |
-| **Drive System** | Mecanum Drive |
-| **Navigation** | Odometry |
-| **Program** | The Innovation Story |
-| **Sponsor** | Salam Bombay Foundation |
-
-**Robot subsystems**
-
-`CLAW` · `PLUNGER` · `HANGER` · `ARM` · `WRIST` · `BUCKET` · `LIFTER` · `DRONE SHOOTER`
-
-**Events & exhibitions**
-
-- FTC Goa
-- Robotics exhibition at V.J.T.I. Mumbai
-- Scrimmage at Dhirubhai Ambani International School
-
-<br/>
-
-<div align="center">
-
-[ **READ THE ENGINEERING PORTFOLIO ↗** ](https://github.com/Somenbauri/ftc-engineering-portfolio/blob/main/FTC-Engineering-Portfolio-Team-Astrobot-22988.pdf)
-
-[Explore the repository](https://github.com/Somenbauri/ftc-engineering-portfolio)
+*Turning curiosity into code, one project at a time.*
 
 </div>
 
 ---
 
-<div align="center">
+## `01 / ABOUT ME`
 
-`03 — CURRENT TOOLKIT`
+Hey! I'm **Somen**, a student and aspiring web developer from India.
 
-</div>
+I'm exploring software development through hands-on learning, personal experiments, and AI-assisted coding. My goal is to turn ideas into useful digital experiences while continuously improving my skills.
 
-## 🛠️ Tools I Build With
-
-<div align="center">
-
-### DEVELOPMENT
-
-![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Astro](https://img.shields.io/badge/Astro-111827?style=for-the-badge&logo=astro&logoColor=FF5D01)
-![Java](https://img.shields.io/badge/Java-111827?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
-
-### WORKFLOW
-
-![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=FFFFFF)
-![OpenCode](https://img.shields.io/badge/OpenCode-111827?style=for-the-badge&logoColor=FFFFFF)
-![Linux](https://img.shields.io/badge/Ubuntu%20%2F%20Linux-111827?style=for-the-badge&logo=ubuntu&logoColor=E95420)
-
-### EXPERIMENTING WITH
-
-`AI-ASSISTED DEVELOPMENT` &nbsp; `WORKFLOW AUTOMATION` &nbsp; `AI AGENTS`
-
-</div>
-
-<details>
-<summary><b>⌁ My development setup</b></summary>
-
-<br/>
-
-I use an Android phone as my development machine.
-
-- **Device:** Samsung Galaxy A35 5G
-- **Environment:** Termux + Ubuntu (proot)
-- **Editor:** Acode
-- **AI coding workflow:** OpenCode and other AI development tools
-
-The goal is simple: keep learning and building with the tools available to me.
-
-</details>
+- 🌐 Exploring modern web development
+- 🧠 Experimenting with AI-assisted development
+- 🛠️ Learning by building and improving projects
+- 🤖 Interested in robotics, automation, and creative technology
+- 📚 Focused on practical skills and continuous learning
 
 ---
 
+## `02 / TECH STACK`
+
 <div align="center">
 
-`04 — WORK IN PROGRESS`
+### WEB DEVELOPMENT
+
+<img src="https://skillicons.dev/icons?i=html,css,js,astro&theme=dark" alt="Web development technologies">
+
+### TOOLS & ENVIRONMENT
+
+<img src="https://skillicons.dev/icons?i=git,github,java,linux,vscode&theme=dark" alt="Development tools">
 
 </div>
 
-## 🚧 The Build Log
+---
 
-These are personal projects and areas I'm exploring—not claims of completed commercial deployments.
+## `03 / WHAT I'M EXPLORING`
 
-### `01` — FTC Engineering Portfolio
-A documented engineering journey covering Team Astrobot #22988's robotics development, programming, CAD, fabrication, and events.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**STATUS:** `PUBLISHED`
+### 🌐 Web Development
 
-[OPEN PROJECT ↗](https://github.com/Somenbauri/ftc-engineering-portfolio)
+Exploring the fundamentals of building websites and digital interfaces.
 
-### `02` — Home Appliance Automation
-A personal project exploring ways to automate home appliances.
+**Areas of interest**
+- HTML & CSS
+- JavaScript
+- Astro
+- UI/UX fundamentals
 
-**STATUS:** `IN PROGRESS`
+</td>
+<td width="50%" valign="top">
 
-### `03` — Sensor Stick for Blind Assistance
-A personal project exploring an ultrasonic sensor-based navigation aid with haptic feedback.
+### ⚡ AI-Assisted Development
 
-**STATUS:** `IN PROGRESS`
+Experimenting with AI tools as part of my coding and problem-solving workflow.
 
-### `04` — Web Development Projects
-Building and experimenting with web interfaces, interactive experiences, and AI-assisted development workflows.
+**Areas of interest**
+- AI-assisted coding
+- Automation concepts
+- Developer productivity
+- Practical problem-solving
 
-**STATUS:** `IN DEVELOPMENT`
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 Robotics
+
+Participated in robotics activities with **Team Astrobot #22988** through FIRST Tech Challenge.
+
+**Technical exposure**
+- Java programming
+- CAD and 3D printing
+- Robot mechanisms
+- Mecanum drive concepts
+
+</td>
+<td width="50%" valign="top">
+
+### 💡 Ideas & Experiments
+
+Interested in exploring how software and hardware can solve practical problems.
+
+**Areas of interest**
+- Smart-home concepts
+- Assistive technology
+- Creative digital experiences
+- Hardware and software integration
+
+</td>
+</tr>
+</table>
 
 ---
 
+## `04 / MY JOURNEY`
+
 <div align="center">
 
-`05 — HOW I WORK`
+| Year | Milestone |
+|:---:|---|
+| <img src="https://img.shields.io/badge/2026-7C3AED?style=flat-square" alt="2026"> | Focusing on web development and AI-assisted building |
+| <img src="https://img.shields.io/badge/2025-6366F1?style=flat-square" alt="2025"> | Continued exploring AR, coding, and technology |
+| <img src="https://img.shields.io/badge/2024-4F46E5?style=flat-square" alt="2024"> | Robotics events, exhibitions, and technology concepts |
+| <img src="https://img.shields.io/badge/2023-3730A3?style=flat-square" alt="2023"> | Robotics with Team Astrobot #22988 and Snapchat AR hackathon |
 
 </div>
 
-## 🧠 Human Direction. AI Assistance. Practical Building.
-
-AI is part of my workflow, but it isn't a substitute for understanding what I'm building.
-
-| PROCESS | APPROACH |
-|:---|:---|
-| `01 / PLAN` | Break ideas into smaller, manageable tasks. |
-| `02 / EXPLORE` | Compare possible approaches and technical trade-offs. |
-| `03 / BUILD` | Use development tools and AI assistance to implement ideas. |
-| `04 / DEBUG` | Investigate errors, test fixes, and refine the implementation. |
-| `05 / LEARN` | Strengthen my understanding and improve the next iteration. |
-
-> **The objective isn't just to generate code. It's to become better at building software.**
-
 ---
+
+## `05 / CURRENT FOCUS`
 
 <div align="center">
 
-`06 — TIMELINE`
+<img src="https://img.shields.io/badge/STATUS-LEARNING%20%26%20BUILDING-7C3AED?style=for-the-badge&labelColor=111827" alt="Learning and building">
+
+<br><br>
+
+### `Learn → Build → Test → Improve`
+
+I believe progress comes from consistent practice, experimentation, and learning from mistakes.
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=350&lines=One+step+at+a+time.;Keep+learning.+Keep+building." alt="Motivational animation">
 
 </div>
 
-## The Journey So Far
-
-| YEAR | CHAPTER |
-|:---:|:---|
-| **2023** | FTC Robotics · Team Astrobot #22988 · Snapchat AR Hackathon |
-| **2024** | FTC Goa · Robotics Exhibitions · Automation & Assistive Project Exploration |
-| **2025** | Snapchat AR Hackathon · Continued Robotics Interests |
-| **2026** | Web Development · AI-Assisted Workflows · Personal Projects |
-
-*The timeline reflects my journey so far—not a list of professional employment or commercial client work.*
-
 ---
+
+## `06 / LET'S CONNECT`
 
 <div align="center">
 
-`07 — ESTABLISH CONNECTION`
+Have an interesting idea or want to connect about technology?
 
-# Have an idea? Let's connect.
+<br><br>
 
-I'm interested in technology, web development, robotics, and practical applications of AI.
+<a href="mailto:somenbauri.dev@gmail.com">
+  <img src="https://img.shields.io/badge/Let's_Talk-Send_an_Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Send an email">
+</a>
 
-<br/>
+<br><br>
 
-[![GitHub](https://img.shields.io/badge/EXPLORE_MY_GITHUB-247BFF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Somenbauri)
+<a href="https://github.com/Somenbauri">GitHub</a>
+&nbsp; • &nbsp;
+<a href="https://www.linkedin.com/in/somen-bauri-3a801a442">LinkedIn</a>
+&nbsp; • &nbsp;
+<a href="mailto:somenbauri.dev@gmail.com">Email</a>
 
-[![LinkedIn](https://img.shields.io/badge/CONNECT_ON_LINKEDIN-111827?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/somen-bauri-3a801a442)
+<br><br>
 
-[![Email](https://img.shields.io/badge/SEND_AN_EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:somenbauri.dev@gmail.com)
-
-<br/>
-
-`LEARN → EXPERIMENT → BUILD → REPEAT`
-
-<br/>
-
-<sub>Designed around curiosity. Driven by continuous learning.</sub>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:312E81,100:7C3AED&height=120&section=footer" width="100%" alt="Purple gradient footer">
 
 </div>

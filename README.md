@@ -1,171 +1,187 @@
+<div align="center">
 
-<!-- ==================== HEADER ==================== -->
+<img src="./assets/id.png" width="155" alt="Somen Bauri's Avatar">
 
-<p align="center">
-  <img src="assets/header.svg" width="100%" alt="Somen Bauri - GitHub Header" />
-</p>
+# SOMEN BAURI
 
-<h1 align="center">Hey, I'm Somen Bauri 👋</h1>
+### Student • Web Developer • Builder
 
-<p align="center">
-  <a href="https://github.com/Somenbauri">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1000&color=EF4444&center=true&vCenter=true&multiline=false&width=650&lines=Student+%7C+Web+Developer;AI-Assisted+Development;Building+Projects+and+Learning+Every+Day;Robotics+%7C+Web+Development+%7C+AI"
-         alt="Typing SVG" />
-  </a>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2200&pause=650&color=8B9DFF&center=true&vCenter=true&width=440&lines=Learning+by+Building;Exploring+Web+Development;Experimenting+with+AI;From+Ideas+to+Prototypes;Learn+%E2%86%92+Build+%E2%86%92+Improve" alt="Animated introduction">
 
-<p align="center">
-  <a href="https://github.com/Somenbauri">
-    <img src="https://img.shields.io/badge/GitHub-Explore_My_Work-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="mailto:somenbauri.dev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-DC2626?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/somen-bauri-3a801a442/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+<br>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Somenbauri&label=PROFILE%20VIEWS&color=dc2626&style=for-the-badge" alt="Profile Views" />
-</p>
+<a href="https://github.com/Somenbauri">
+  <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+<a href="https://www.linkedin.com/in/somen-bauri-3a801a442">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="mailto:somenbauri.dev@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
 
----
+<br><br>
 
-## 🔴 About Me
+<img src="https://komarev.com/ghpvc/?username=Somenbauri&style=flat-square&color=7C3AED&label=PROFILE+VIEWS" alt="Profile views">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=15&duration=3000&pause=1000&color=F87171&center=true&vCenter=true&width=600&lines=Learning+by+Building.;Turning+Ideas+Into+Projects.;Exploring+Web+Development+and+AI."
-       alt="About Me Animation" />
-</p>
+<br>
 
-Hey! I'm **Somen Bauri**, a student and aspiring web developer from India.
+*Turning curiosity into code, one project at a time.*
 
-I'm interested in building websites, exploring AI-assisted development, experimenting with automation workflows, and learning how technology can solve practical problems.
-
-My journey also includes robotics, engineering design, and hands-on team experiences through FIRST Tech Challenge (FTC).
-
-- 🎓 **Education:** Class 12 completed, Science stream; currently in a drop year.
-- 💻 **Focus:** Web development and AI-assisted development.
-- 🤖 **Background:** Robotics, engineering design, and FTC team experience.
-- 🌱 **Currently:** Learning, experimenting, and building my portfolio.
-- 🎯 **Goal:** Develop practical projects and become a better developer.
-
-> I believe in learning by building, staying curious, and letting real projects speak for themselves.
+</div>
 
 ---
 
-## 🚀 Featured Projects
+## `01 / ABOUT ME`
 
-### 1. FTC Engineering Portfolio
+Hey! I'm **Somen**, a student and aspiring web developer from India.
 
-An engineering portfolio documenting my robotics and FTC-related journey.
+I'm exploring software development through hands-on learning, personal experiments, and AI-assisted coding. My goal is to turn ideas into useful digital experiences while continuously improving my skills.
 
-<p>
-  <a href="https://github.com/Somenbauri/ftc-engineering-portfolio">
-    <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View FTC Engineering Portfolio" />
-  </a>
-</p>
-
-### 2. Robotics & Engineering
-
-My robotics experience includes FTC participation with **Team Astrobot #22988**, engineering design, and working with technologies such as Java, SolidWorks, and 3D printing.
-
-### 3. Home Appliance Automation
-
-A hands-on engineering project involving home appliance automation.
-
-### 4. Sensor Stick for Blind Assistance
-
-An assistive-technology project focused on helping visually impaired people through a sensor-based stick.
-
-*The last two projects are not publicly linked here because their repositories are private.*
+- 🌐 Exploring modern web development
+- 🧠 Experimenting with AI-assisted development
+- 🛠️ Learning by building and improving projects
+- 🤖 Interested in robotics, automation, and creative technology
+- 📚 Focused on practical skills and continuous learning
 
 ---
 
-## 🤖 Robotics Journey
+## `02 / TECH STACK`
 
-- **2023:** FTC Pune — Team Astrobot #22988.
-- **2024:** FTC Goa — continued robotics and engineering activities.
-- **Competitions:** Participated in a Snapchat AR hackathon.
-- **Engineering projects:** Home appliance automation and a sensor stick for blind assistance.
+<div align="center">
 
-My robotics journey helped me explore engineering beyond the screen, from design and prototyping to practical problem-solving.
+### WEB DEVELOPMENT
 
----
+<img src="https://skillicons.dev/icons?i=html,css,js,astro&theme=dark" alt="Web development technologies">
 
-## 🛠️ Technologies & Tools
+### TOOLS & ENVIRONMENT
 
-<p align="center">
-  <b>Programming & Web Development</b>
-  <br /><br />
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,astro,java&theme=dark" alt="HTML, CSS, JavaScript, TypeScript, Astro, Java" />
-</p>
+<img src="https://skillicons.dev/icons?i=git,github,java,linux,vscode&theme=dark" alt="Development tools">
 
-<p align="center">
-  <b>Development Tools</b>
-  <br /><br />
-  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode&theme=dark" alt="Git, GitHub, Linux, VS Code" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI--Assisted_Development-Exploring-DC2626?style=flat-square" alt="AI-Assisted Development" />
-  <img src="https://img.shields.io/badge/Workflow_Automation-Exploring-111111?style=flat-square" alt="Workflow Automation" />
-  <img src="https://img.shields.io/badge/Robotics-FTC-DC2626?style=flat-square" alt="Robotics" />
-</p>
+</div>
 
 ---
 
-## 📊 GitHub Analytics
+## `03 / WHAT I'M EXPLORING`
 
-<p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Somenbauri&show_icons=true&bg_color=0a0a0a&title_color=ef4444&text_color=f3f4f6&icon_color=ef4444"
-       width="100%" style="max-width: 440px;" alt="GitHub Stats" />
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Somenbauri&layout=compact&bg_color=0a0a0a&title_color=ef4444&text_color=f3f4f6"
-       width="100%" style="max-width: 350px;" alt="Top Languages" />
-</p>
+### 🌐 Web Development
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Somenbauri&theme=dark&hide_border=false&border=ef4444&background=0a0a0a&ring=ef4444&fire=ef4444"
-       width="100%" style="max-width: 480px;" alt="GitHub Contribution Streak" />
-</p>
+Exploring the fundamentals of building websites and digital interfaces.
+
+**Areas of interest**
+- HTML & CSS
+- JavaScript
+- Astro
+- UI/UX fundamentals
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ AI-Assisted Development
+
+Experimenting with AI tools as part of my coding and problem-solving workflow.
+
+**Areas of interest**
+- AI-assisted coding
+- Automation concepts
+- Developer productivity
+- Practical problem-solving
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 Robotics
+
+Participated in robotics activities with **Team Astrobot #22988** through FIRST Tech Challenge.
+
+**Technical exposure**
+- Java programming
+- CAD and 3D printing
+- Robot mechanisms
+- Mecanum drive concepts
+
+</td>
+<td width="50%" valign="top">
+
+### 💡 Ideas & Experiments
+
+Interested in exploring how software and hardware can solve practical problems.
+
+**Areas of interest**
+- Smart-home concepts
+- Assistive technology
+- Creative digital experiences
+- Hardware and software integration
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🐍 Contribution Journey
+## `04 / MY JOURNEY`
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
-       width="100%" alt="GitHub Contribution Snake Animation" />
-</p>
+<div align="center">
+
+| Year | Milestone |
+|:---:|---|
+| <img src="https://img.shields.io/badge/2026-7C3AED?style=flat-square" alt="2026"> | Focusing on web development and AI-assisted building |
+| <img src="https://img.shields.io/badge/2025-6366F1?style=flat-square" alt="2025"> | Continued exploring AR, coding, and technology |
+| <img src="https://img.shields.io/badge/2024-4F46E5?style=flat-square" alt="2024"> | Robotics events, exhibitions, and technology concepts |
+| <img src="https://img.shields.io/badge/2023-3730A3?style=flat-square" alt="2023"> | Robotics with Team Astrobot #22988 and Snapchat AR hackathon |
+
+</div>
 
 ---
 
-## 🤝 Let's Connect
+## `05 / CURRENT FOCUS`
 
-<p align="center">
-  I'm interested in learning, building useful projects, and connecting with people who enjoy technology and engineering.
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/Somenbauri">
-    <img src="https://img.shields.io/badge/GitHub-Follow_My_Journey-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
-  </a>
-  <a href="https://www.linkedin.com/in/somen-bauri-3a801a442/">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
-  </a>
-  <a href="mailto:somenbauri.dev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Say_Hello-DC2626?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
+<img src="https://img.shields.io/badge/STATUS-LEARNING%20%26%20BUILDING-7C3AED?style=for-the-badge&labelColor=111827" alt="Learning and building">
 
-<p align="center">
-  <i>Learn. Build. Experiment. Improve.</i>
-</p>
+<br><br>
 
-<p align="center">
-  Thanks for visiting my profile! 🚀
-</p>
+### `Learn → Build → Test → Improve`
+
+I believe progress comes from consistent practice, experimentation, and learning from mistakes.
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=350&lines=One+step+at+a+time.;Keep+learning.+Keep+building." alt="Motivational animation">
+
+</div>
+
+---
+
+## `06 / LET'S CONNECT`
+
+<div align="center">
+
+Have an interesting idea or want to connect about technology?
+
+<br><br>
+
+<a href="mailto:somenbauri.dev@gmail.com">
+  <img src="https://img.shields.io/badge/Let's_Talk-Send_an_Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Send an email">
+</a>
+
+<br><br>
+
+<a href="https://github.com/Somenbauri">GitHub</a>
+&nbsp; • &nbsp;
+<a href="https://www.linkedin.com/in/somen-bauri-3a801a442">LinkedIn</a>
+&nbsp; • &nbsp;
+<a href="mailto:somenbauri.dev@gmail.com">Email</a>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:312E81,100:7C3AED&height=120&section=footer" width="100%" alt="Purple gradient footer">
+
+</div>
